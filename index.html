@@ -6,6 +6,9 @@
     <title>Expense Tracker</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Chart.js CDN -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="css/style.css">
      
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -17,20 +20,20 @@
             <h1><i class="fas fa-money-bill-wave"></i> Expense Tracker</h1>
             <p>Track your income and expenses with ease</p>
         </header>
-
+     
         <div class="balance-container">
             <div class="card balance-box income">
-                <h3>INCOME</h3>
+                <h3><i class="fas fa-arrow-trend-up"></i> Income</h3>
                 <div class="balance-amount" id="incomeTotal">+ ₹0.00</div>
             </div>
             
             <div class="card balance-box expense">
-                <h3>EXPENSE</h3>
+                <h3><i class="fas fa-arrow-trend-down"></i> Expense</h3>
                 <div class="balance-amount" id="expenseTotal">- ₹0.00</div>
             </div>
             
             <div class="card balance-box balance">
-                <h3>BALANCE</h3>
+                <h3><i class="fas fa-wallet"></i> Balance</h3>
                 <div class="balance-amount" id="balanceTotal">₹0.00</div>
             </div>
         </div>
