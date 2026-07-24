@@ -1,68 +1,37 @@
 # 💰 Expense Tracker
 
-A simple and user-friendly Expense Tracker web application built using **HTML, CSS, and JavaScript**. This application helps users manage their income and expenses, track their balance, and categorize transactions.
+A simple and responsive Expense Tracker built using HTML, CSS, JavaScript, and Chart.js.
 
 ## 🚀 Live Demo
 
-🔗 https://shridharsp18.github.io/Expensive-Tracker/
+https://shridharsp18.github.io/Expensive-Tracker/
 
 ## ✨ Features
 
-- Add income and expense transactions
-- Automatic balance calculation
-- Income and expense summaries
-- Category-wise expense tracking
-- Responsive and clean user interface
-- Interactive charts for expense visualization
-- Simple and easy-to-use design
+- Add income and expenses
+- Delete transactions
+- Local Storage support
+- Interactive charts
+- Responsive design
 
-## 🛠️ Technologies Used
+## 🛠 Technologies Used
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (ES6)
 - Chart.js
-- Font Awesome
 
-## 📸 Screenshot
+## 📸 Screenshots
 
-> Add a screenshot of your application here.
+### Dashboard
+![Dashboard](screenshots/expense-tracker-home.png)
 
-## 📂 Project Structure
+### Transactions
+![Transactions](screenshots/expense-tracker-home2.png)
 
-```
-Expense-Tracker/
-│── index.html
-│── README.md
-```
-
-## ▶️ How to Run
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/shridharsp18/Expensive-Tracker.git
-```
-
-2. Open the project folder.
-
-3. Open `index.html` in any web browser.
-
-## 🎯 Future Enhancements
-
-- User authentication
-- Local storage/database integration
-- Export reports to PDF or Excel
-- Monthly expense reports
-- Dark mode
-- Budget planning and alerts
+### Analytics
+![Analytics](screenshots/expense-tracker-home3.png)
 
 ## 👨‍💻 Author
 
-**Shridhar S Pamadinni**
-
-GitHub: https://github.com/shridharsp18
-
----
-
-⭐ If you like this project, don't forget to star the repository!
+Shridhar
